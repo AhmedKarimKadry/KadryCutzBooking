@@ -42,7 +42,7 @@
 .nav-links ul li a{
     color: black;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
 }
 .nav-links ul li::after{
     content: '';
@@ -67,4 +67,29 @@
 }
 .text-box h1{
     font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 14px;
+    font-size: 20px;
+    color: black;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background: black;
+    transition: 1s;
+    
+}
+.hero-btn:hover span{
+    color: white;
+    transition: 1s;
 }
